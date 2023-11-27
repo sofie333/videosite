@@ -1,0 +1,33 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "barlow";
+  src: url(barlowcondensed-light-webfont.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: rgb(181, 221, 243);
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: white;
+  font-family: "barlow";
+}
+
+h1 {
+  font-size: 3.7rem;
+  margin-top: 2%;
+}
+
+h2 {
+  font-size: 2rem;
+}

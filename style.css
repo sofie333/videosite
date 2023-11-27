@@ -1,0 +1,89 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@font-face {
+  font-family: "barlow";
+  src: url(barlowcondensed-light-webfont.woff2);
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "barlow";
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.7rem;
+  margin-top: 2%;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 2%;
+}
+
+footer {
+  font-family: "barlow";
+  color: white;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(181, 222, 232);
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1%;
+}
+
+.gallery img {
+  height: 100%;
+  object-fit: cover;
+}
+
+iframe,
+video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.image {
+  height: 30%;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+}
+
+footer {
+  margin: 2%;
+  font-size: 2rem;
+}
